@@ -6,6 +6,9 @@ body {
     height: 100%;
     cursor: url(../image/target.png) 2 2,pointer;
 }
+body:active {
+    cursor: url(../image/explosion.gif) 2 2, pointer;
+}
 
 * {
     padding: 0;
@@ -22,7 +25,9 @@ body {
 .pigeon{
     width: 10em;
     height: 10em;
-    background-color: red;
+    background-image: url(../image/dove.png);
+    background-size: contain;
     position: absolute;
+    background-repeat: no-repeat;
     transition: linear 1s;
 }
