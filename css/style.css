@@ -20,8 +20,8 @@ body {
 }
 
 #pigeon{
-    width: 1em;
-    height: 1em;
+    width: 10em;
+    height: 10em;
     background-color: red;
     position: absolute;
 }

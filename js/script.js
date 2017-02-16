@@ -3,10 +3,12 @@ var pigeon = document.createElement("div");
 pigeon.id = "pigeon";
 board.appendChild(pigeon);
 
-console.log("plop", board);
-pigeon.style.left = Math.floor(Math.random() * board.clientWidth) + "px";
-pigeon.style.top = Math.floor(Math.random() * board.clientHeight) + "px";
 
-pigeon.addEventListener("click", function(){
-    this.style.display = "none";
-})
+setInterval (function () {
+    pigeon.style.left = Math.floor(Math.random() * board.clientWidth) + "px";
+    pigeon.style.top = Math.floor(Math.random() * board.clientHeight) + "px";
+    },1000);
+    
+pigeon.addEventListener("click", function(event){
+    board.removeChild(pigeon);
+});
