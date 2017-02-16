@@ -11,7 +11,7 @@ setInterval (function () {
     pigeon.style.top = Math.floor(Math.random() * board.clientHeight) + "px";
 },1000);
 pigeon.addEventListener("click", function(event){
-         board.removeChild(this);
+         board.removeChild(pigeon);
 });
 
-}, 5000);
+}, 3000);

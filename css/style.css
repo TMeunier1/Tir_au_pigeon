@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    cursor: url(../image/target.png) 2 2,pointer;
+    cursor: url(../image/crosshair.png) 64 64,auto;
 }
 body:active {
     cursor: url(../image/explosion.gif) 2 2, pointer;
@@ -29,5 +29,5 @@ body:active {
     background-size: contain;
     position: absolute;
     background-repeat: no-repeat;
-    transition: linear 1s;
+    transition: linear 2s;
 }
