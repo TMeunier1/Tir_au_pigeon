@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    height: inherit;
+    height: 100%;
 }
 
 * {
@@ -13,12 +13,12 @@ body {
 
 #board {
     background-color: lightblue;
-    height: inherit;
+    height: 100%;
     width: 100%;
     position: relative;
 }
 
-.pigeon{
+#pigeon{
     width: 1em;
     height: 1em;
     background-color: red;

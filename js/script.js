@@ -1,8 +1,8 @@
 var board = document.getElementById("board");
 var pigeon = document.createElement("div");
-pigeon.className = "pigeon";
+pigeon.id = "pigeon";
 board.appendChild(pigeon);
 
-
-pigeon.style.left = Math.floor(Math.random() * board.style.width) +"%";
-pigeon.style.top = Math.floor(Math.random() * board.style.height) +"%";
+console.log("plop", board);
+pigeon.style.left = Math.floor(Math.random() * board.clientWidth) + "px";
+pigeon.style.top = Math.floor(Math.random() * board.clientHeight) + "px";
