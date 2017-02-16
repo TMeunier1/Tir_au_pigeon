@@ -21,5 +21,6 @@ body {
     width: 1em;
     height: 1em;
     background-color: red;
-    display: block;
+    position: absolute;
+    bottom: 100px;
 }
