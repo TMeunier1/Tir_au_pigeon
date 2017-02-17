@@ -29,5 +29,5 @@ body:active {
     background-size: contain;
     position: absolute;
     background-repeat: no-repeat;
-    transition: linear 2s;
+    transition: linear 2s 0s;
 }
